@@ -1,0 +1,42 @@
+<!-- Solarized Dark — Ethan Schoonover's deep oceanic teal base (#002B36).
+     A flat theme: one set of colours, no Dark/Light variants. The host
+     applies these regardless of the active Avalonia variant. -->
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Surfaces — Solarized's base03 #002B36 (background) +
+         base02 #073642 (highlight). -->
+    <SolidColorBrush x:Key="SidebarBackground"      Color="#073642" />
+    <SolidColorBrush x:Key="ContentBackground"      Color="#002B36" />
+    <SolidColorBrush x:Key="PanelBackground1"       Color="#073642" />
+    <SolidColorBrush x:Key="PanelBackground2"       Color="#002B36" />
+    <SolidColorBrush x:Key="PanelBackground3"       Color="#0D4150" />
+    <SolidColorBrush x:Key="SubtleBorder"           Color="#13495A" />
+
+    <!-- Accents — Solarized blue + violet (same hues as Light). -->
+    <SolidColorBrush x:Key="PrimaryAccent"          Color="#268BD2" />
+    <SolidColorBrush x:Key="PrimaryAccentHover"     Color="#4FA3DC" />
+    <SolidColorBrush x:Key="OnPrimaryAccent"        Color="#FDF6E3" />
+    <SolidColorBrush x:Key="SecondaryAccent"        Color="#6C71C4" />
+
+    <!-- Text — Solarized's base0 #839496 (body) + base01 #586E75 (muted).
+         On dark, the lighter tones go on top. -->
+    <SolidColorBrush x:Key="TextPrimary"            Color="#839496" />
+    <SolidColorBrush x:Key="TextSecondary"          Color="#586E75" />
+
+    <!-- Status pairs — Solarized's named accents on tinted dark bgs. -->
+    <SolidColorBrush x:Key="SuccessBackground"      Color="#1F3A1F" />
+    <SolidColorBrush x:Key="SuccessForeground"      Color="#859900" />
+    <SolidColorBrush x:Key="DangerBackground"       Color="#3D1F20" />
+    <SolidColorBrush x:Key="DangerForeground"       Color="#DC322F" />
+    <SolidColorBrush x:Key="InfoBackground"         Color="#0F3548" />
+    <SolidColorBrush x:Key="InfoForeground"         Color="#268BD2" />
+    <SolidColorBrush x:Key="WarningBackground"      Color="#3A2E15" />
+    <SolidColorBrush x:Key="WarningForeground"      Color="#B58900" />
+
+    <!-- Composition keys. -->
+    <SolidColorBrush x:Key="DropZoneHighlight"      Color="#B4268BD2" />
+    <SolidColorBrush x:Key="WaveformBrush"          Color="#268BD2" />
+    <SolidColorBrush x:Key="LoopInheritForeground"  Color="#586E75" />
+    <SolidColorBrush x:Key="LoopForceOnForeground"  Color="#859900" />
+    <SolidColorBrush x:Key="LoopForceOffForeground" Color="#DC322F" />
+</ResourceDictionary>
