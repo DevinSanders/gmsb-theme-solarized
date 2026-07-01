@@ -13,6 +13,15 @@ Both palettes share Solarized's canonical accent set — yellow, orange, red, ma
 
 Each palette is a flat set of colours — one selectable look in the host's theme dropdown (shown as "Solarized: Solarized Light" / "Solarized: Solarized Dark"). There is no Dark/Light variant: the host applies the palette regardless of the active Avalonia variant and infers light/dark Fluent chrome (scrollbars, popups, focus rings) from the background luminance on its own. To switch bases, just pick the other palette.
 
+## Preview
+
+| Solarized Light | Solarized Dark |
+|-----------------|----------------|
+| [![Solarized Light — cream base #FDF6E3](screenshots/SolarizedLight.png)](screenshots/SolarizedLight.png) | [![Solarized Dark — teal base #002B36](screenshots/SolarizedDark.png)](screenshots/SolarizedDark.png) |
+| Cream base (`base3` #FDF6E3) | Teal base (`base03` #002B36) |
+
+*Click either image for full resolution.*
+
 ## Install
 
 Drop the released `.zip` onto Settings → Plugin Manager. Themes activate live — no restart needed. Pick the palette from Settings → Appearance → Theme.
